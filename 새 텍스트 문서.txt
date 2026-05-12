@@ -1,0 +1,9 @@
+local RS = game.ReplicatedStorage
+
+for i = 1,1002,1 do 
+ RS.SpawnLuckyBlock:FireServer()
+ RS.SpawnSuperBlock:FireServer()
+ RS.SpawnDiamondBlock:FireServer()
+ RS.SpawnRainbowBlock:FireServer()
+ RS.SpawnGalaxyBlock:FireServer()
+end
